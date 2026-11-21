@@ -1,0 +1,11 @@
+export CLAUDE_API_KEY=sk-qY74vPftKH8aFFZRA5OeGQ
+export GROQ_API_KEY=sk-qY74vPftKH8aFFZRA5OeGQ
+export ALLOWED_MODELS=gpt-4.1,gpt-5-mini,gpt-5.4-nano
+export OPENAI_API_BASE=https://api.ai.kodekloud.com
+export LITELLM_API_BASE=https://api.ai.kodekloud.com
+export AZURE_OPENAI_ENDPOINT=https://api.ai.kodekloud.com
+export OPENAI_API_KEY=sk-qY74vPftKH8aFFZRA5OeGQ
+export LITELLM_API_KEY=sk-qY74vPftKH8aFFZRA5OeGQ
+export GROQ_API_BASE=https://api.ai.kodekloud.com
+export AZURE_OPENAI_API_KEY=sk-qY74vPftKH8aFFZRA5OeGQ
+export CLAUDE_API_BASE=https://api.ai.kodekloud.com

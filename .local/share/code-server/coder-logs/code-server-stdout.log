@@ -1,0 +1,28 @@
+[2026-11-21T19:02:14.199Z] info  code-server 4.138.0 59c988c744a240b05b039f57b856a5312f19d5b1
+[2026-11-21T19:02:14.200Z] info  Using user-data-dir /home/lab-user/.local/share/code-server
+[2026-11-21T19:02:14.254Z] info  Using config file /home/lab-user/.config/code-server/config.yaml
+[2026-11-21T19:02:14.254Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2026-11-21T19:02:14.254Z] info    - Authentication is disabled
+[2026-11-21T19:02:14.254Z] info    - Not serving HTTPS
+[2026-11-21T19:02:14.254Z] info  Session server listening on /home/lab-user/.local/share/code-server/code-server-ipc.sock
+[20:47:13] 
+
+
+
+
+[reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[20:47:13] [AgentHostChannel] Registered lazy IPC channel 'agentHostProxy' (upstream: /tmp/vscode-ipc-503509ec-15ea-4837-bcc5-92aaa6a78d7f.sock)
+[20:47:13] Extension host agent started.
+[20:47:13] Started initializing default profile extensions in extensions installation folder. file:///home/lab-user/.local/share/code-server/extensions
+[20:47:13] Completed initializing default profile extensions in extensions installation folder. file:///home/lab-user/.local/share/code-server/extensions
+[20:47:17] [10.244.229.4][ea385abf][ManagementConnection] New connection established.
+[20:47:18] Extensions added from another source rooveterinaryinc.roo-cline file:///home/lab-user/.local/share/code-server/extensions/extensions.json
+[20:47:19] [AgentHostChannel] Renderer ctx=[object Object] requested connect to upstream
+[20:47:20] [10.244.229.4][905b11b5][ExtensionHostConnection] New connection established.
+[20:47:20] [10.244.229.4][905b11b5][ExtensionHostConnection] Starting extension host process...
+[20:47:20] [10.244.229.4][905b11b5][ExtensionHostConnection] <5984> Launched Extension Host Process.
+[IPC Library: Agent Host] Agent host server listening on /tmp/vscode-ipc-503509ec-15ea-4837-bcc5-92aaa6a78d7f.sock
+[20:47:20] ServerAgentHostManager: agent host started
+[20:47:20] [AgentHostChannel] Opening upstream to /tmp/vscode-ipc-503509ec-15ea-4837-bcc5-92aaa6a78d7f.sock
+[20:47:21] [10.244.229.4][905b11b5][ExtensionHostConnection] <5984> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+

@@ -1,0 +1,88 @@
+Script started on 2026-11-21 20:48:11+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="93" LINES="12"]
+[?2004h
+[1;36m~[0m [1;32m➜[0m  git status
+[?2004lfatal: not a git repository (or any of the parent directories): .git
+[?2004h
+[1;36m~[0m [1;31m✖[0m git init
+[?2004l[33mhint: Using 'master' as the name for the initial branch. This default branch name[m
+[33mhint: is subject to change. To configure the initial branch name to use in all[m
+[33mhint: of your new repositories, which will suppress this warning, call:[m
+[33mhint: [m
+[33mhint: 	git config --global init.defaultBranch <name>[m
+[33mhint: [m
+[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m
+[33mhint: 'development'. The just-created branch can be renamed via this command:[m
+[33mhint: [m
+[33mhint: 	git branch -m <name>[m
+Initialized empty Git repository in /home/lab-user/.git/
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  git[K[K[K[7mgit remote add origin https://github.com/prabah/rag.git[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit remote add origin https://github.com/prabah/rag.git
+[?2004l[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [7mgit commit -m "first commit"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit -m "first commit"
+[?2004lAuthor identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lab-user@host01.(none)')
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;31m✖[0m [7mgit config --global user.email "you@example.com"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --global user.email "you@example.com"[C[C[C[1Pou@example.com"[1Pu@example.com"[1P@example.com"p@example.com"r@example.com"a@example.com"v@example.com"a@example.com"g@example.com"[1P@example.com"[1P@example.com"[1P@example.com"b@example.com"a@example.com"h@example.com"[C[1Pxample.com"[1Pample.com"[1Pmple.com"[1Pple.com"[1Ple.com"[1Pe.com"[1P.com"g.com"m.com"a.com"i.com"l.com"
+[?2004l[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  git config --global user.email "prabah@gmail.com"[1P "prabah@gmail.com"[1P "prabah@gmail.com"[1P "prabah@gmail.com"[1P "prabah@gmail.com"[1P "prabah@gmail.com"[1P "prabah@gmail.com"[1P "prabah@gmail.com"r "prabah@gmail.com"[C[C[1Prabah@gmail.com"Prabah@gmail.com"[C[C[C[1Ph@gmail.com"[1P@gmail.com"[1Pgmail.com"[1Pmail.com"[1Pail.com"[1Pil.com"[1Pl.com"[1P.com"[1Pcom"[1Pom"[1Pm"[1P"
+[?2004lerror: key does not contain a section: user
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;31m✖[0m git config --global user "Prab"a"
+[?2004lerror: key does not contain a section: user
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;31m✖[0m git config --global user "Praba"[C. "Praba"n "Praba"a "Praba"m "Praba"e "Praba"
+[?2004l[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  git config --global user.name "Praba"[5P "Praba"[1P".email "prabah@gmail.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pmmit -m "first commit"remote add origin https://github.com/prabah/rag.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[27Pcommit -m "first commit"
+[?2004lOn branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_profile[m
+	[31m.bashrc[m
+	[31m.cache/[m
+	[31m.config/[m
+	[31m.copilot/[m
+	[31m.gitconfig[m
+	[31m.local/[m
+	[31m.oh-my-zsh/[m
+	[31m.profile[m
+	[31m.roo-coder/[m
+	[31m.terminal_logs/[m
+	[31m.zshrc[m
+	[31mREADME.md[m
+	[31mrag-project/[m
+	[31mtechcorp-docs/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;31m✖[0m git ad .[K[Kd .
+[?2004lwarning: adding embedded git repository: .oh-my-zsh
+[33mhint: You've added another git repository inside your current repository.[m
+[33mhint: Clones of the outer repository will not contain the contents of[m
+[33mhint: the embedded repository and will not know how to obtain it.[m
+[33mhint: If you meant to add a submodule, use:[m
+[33mhint: [m
+[33mhint: 	git submodule add <url> .oh-my-zsh[m
+[33mhint: [m
+[33mhint: If you added this path by mistake, you can remove it from the[m
+[33mhint: index with:[m
+[33mhint: [m
+[33mhint: 	git rm --cached .oh-my-zsh[m
+[33mhint: [m
+[33mhint: See "git help submodule" for more information.[m
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m+[0m[1;31m][0m [1;32m➜[0m  g[Kgit ad d .[K[K[K[Kd .
+[?2004l
